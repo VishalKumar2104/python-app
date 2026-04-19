@@ -19,7 +19,7 @@ jobs:
 
       - name: get pem file
         run: |
-          echo "${{secrets.vishal}}" > key.pem
+          echo "${{secrets.vishal-key1}}" > key.pem
           chmod 400 key.pem
           
 
